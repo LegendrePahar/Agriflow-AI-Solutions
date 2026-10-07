@@ -8,7 +8,7 @@ import {
 
 const ProblemSection = () => {
   return (
-    <section className="py-24 bg-[#FAFCFA]">
+    <section className="py-8 bg-[#FAFCFA]">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
 
         {/* Heading */}
@@ -24,7 +24,7 @@ const ProblemSection = () => {
             WHY AI MATTERS
           </p>
 
-          <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
+          <h2 className="text-2xl sm:text-2xl lg:text-5xl text-slate-900 mb-4 sm:mb-4">
             Stop Guessing.
             <span className="text-primary"> Start Measuring.</span>
           </h2>

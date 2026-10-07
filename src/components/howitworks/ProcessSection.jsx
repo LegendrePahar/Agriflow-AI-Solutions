@@ -89,13 +89,13 @@ const ProcessSection = () => {
 
         {/* Heading */}
         <div className="text-center mb-14">
-          <h2 className="text-4xl lg:text-5xl font-bold text-[#0B132B] mb-3">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0B132B] mb-3">
             The <span className="text-primary">AgriFlow AI</span> Process
           </h2>
+          <div className="w-12 h-1 bg-primary rounded-full mx-auto mt-2 mb-2" />
           <p className="text-gray-500 text-lg">
             A transparent, technology-driven process that benefits everyone.
           </p>
-          <div className="w-12 h-1 bg-primary rounded-full mx-auto mt-4" />
         </div>
 
         {/* Steps */}
@@ -161,5 +161,3 @@ const ProcessSection = () => {
 };
 
 export default ProcessSection;
-
-

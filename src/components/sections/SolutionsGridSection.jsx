@@ -39,7 +39,7 @@ const SolutionsGridSection = () => {
   return (
     <section
       id="solutions-grid"
-      className="py-8 bg-white"
+      className="py-4 bg-white"
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
 
@@ -52,16 +52,16 @@ const SolutionsGridSection = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-14"
         >
-          <p className="text-primary font-semibold uppercase tracking-widest text-sm mb-3">
+          <p className="text-primary font-semibold uppercase tracking-widest text-sm mb-2">
             Solutions For Everyone
           </p>
-          <div className="w-12 h-1 bg-primary mx-auto rounded-full mb-6"></div>
+          <div className="w-12 h-1 bg-primary mx-auto rounded-full mb-4"></div>
 
-          <h2 className="text-4xl lg:text-5xl font-bold text-[#0B132B]">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0B132B]">
             Built for every link in the food chain
           </h2>
 
-          <p className="mt-6 text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          <p className="mt-4 text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Whether you're growing food, transporting it, purchasing it,
             or shaping national food policy, AgriFlow AI provides
             purpose-built tools for every stakeholder.

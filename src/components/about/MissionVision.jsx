@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const MissionVision = () => {
   return (
-    <section className="py-20 bg-white">
+    <section className="py-8 bg-white">
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         <div className="grid lg:grid-cols-2 gap-8">
           {/* Mission Card */}

@@ -98,9 +98,10 @@ const AboutCTA = () => {
             }}
             className="
               flex
-              flex-col
-              sm:flex-row
-              gap-4
+              flex-row
+              flex-nowrap
+              gap-3
+              sm:gap-4
             "
           >
 
@@ -110,13 +111,20 @@ const AboutCTA = () => {
                 bg-primary
                 hover:bg-primary/90
                 text-white
-                px-8
-                py-4
+                px-4
+                sm:px-8
+                py-3
+                sm:py-4
                 rounded-xl
                 font-semibold
                 shadow-lg
                 transition-all
                 duration-300
+                flex-1
+                sm:flex-none
+                text-sm
+                sm:text-base
+                whitespace-nowrap
               "
             >
               Partner With Us
@@ -130,12 +138,19 @@ const AboutCTA = () => {
                 text-white
                 hover:bg-white
                 hover:text-green-900
-                px-8
-                py-4
+                px-4
+                sm:px-8
+                py-3
+                sm:py-4
                 rounded-xl
                 font-semibold
                 transition-all
                 duration-300
+                flex-1
+                sm:flex-none
+                text-sm
+                sm:text-base
+                whitespace-nowrap
               "
             >
               Contact Us

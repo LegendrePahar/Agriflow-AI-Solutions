@@ -42,11 +42,11 @@ const SolutionsCTASection = () => {
               Let's Work Together
             </p>
 
-            <h2 className="text-4xl lg:text-5xl font-bold text-white leading-tight mb-6">
-              Ready to transform
-              <br />
-              Nigeria's food supply chain?
-            </h2>
+            <h2 className="text-2xl sm:text-3xl lg:text-5xl font-bold text-white leading-tight mb-4 sm:mb-6">
+  Ready to transform
+  <br />
+  Nigeria's food supply chain?
+</h2>
 
             <p className="text-green-100 text-lg leading-relaxed max-w-xl">
               Whether you're a farmer, institution, logistics partner,
@@ -67,7 +67,7 @@ const SolutionsCTASection = () => {
               duration: 0.7,
               delay: 0.2,
             }}
-            className="flex flex-wrap gap-5 lg:justify-end"
+            className="flex flex-row flex-nowrap gap-3 sm:gap-5 lg:justify-end"
           >
 
             {/* Primary */}
@@ -76,23 +76,32 @@ const SolutionsCTASection = () => {
               className="
               flex
               items-center
-              gap-3
+              justify-center
+              gap-2
+              sm:gap-3
               bg-primary
               hover:bg-green-700
               text-white
-              px-8
-              py-4
+              px-4
+              sm:px-8
+              py-3
+              sm:py-4
               rounded-full
               font-semibold
               shadow-xl
               transition-all
               duration-300
               hover:scale-105
+              flex-1
+              sm:flex-none
+              text-sm
+              sm:text-base
+              whitespace-nowrap
             "
             >
               Partner With Us
 
-              <ArrowRight className="w-5 h-5" />
+              <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5" />
             </button>
 
             {/* Secondary */}
@@ -102,22 +111,31 @@ const SolutionsCTASection = () => {
               className="
                 flex
                 items-center
-                gap-3
+                justify-center
+                gap-2
+                sm:gap-3
                 border
                 border-white
                 text-white
                 hover:bg-white
                 hover:text-primary
-                px-8
-                py-4
+                px-4
+                sm:px-8
+                py-3
+                sm:py-4
                 rounded-full
                 font-semibold
                 transition-all
                 duration-300
                 hover:scale-105
+                flex-1
+                sm:flex-none
+                text-sm
+                sm:text-base
+                whitespace-nowrap
               "
             >
-              <PhoneCall className="w-5 h-5" />
+              <PhoneCall className="w-4 h-4 sm:w-5 sm:h-5" />
               Contact Sales
             </a>
 

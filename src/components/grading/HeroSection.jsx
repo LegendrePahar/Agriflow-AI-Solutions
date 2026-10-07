@@ -56,22 +56,25 @@ const HeroSection = () => {
             {/* Heading */}
 
             <h1
-              className="
-              text-5xl
-              lg:text-[4.1rem]
-              leading-[1.05]
-              font-bold
-              text-slate-900
-              mb-6
-            "
-            >
-              Fair Pricing Begins With
-              <br />
+  className="
+    text-3xl
+    sm:text-4xl
+    lg:text-[4.1rem]
+    leading-[1.1]
+    sm:leading-[1.05]
+    font-bold
+    text-slate-900
+    mb-4
+    sm:mb-6
+  "
+>
+  Fair Pricing Begins With
+  <br />
 
-              <span className="text-primary">
-                Standardized Quality
-              </span>
-            </h1>
+  <span className="text-primary">
+    Standardized Quality
+  </span>
+</h1>
 
             {/* Description */}
 
@@ -92,44 +95,34 @@ const HeroSection = () => {
 
             {/* Buttons */}
 
-            <div className="flex flex-wrap gap-5">
+            <div className="flex flex-row flex-nowrap gap-3 sm:gap-5">
 
-              {/* <button
-                className="
-                bg-primary
-                hover:bg-primary/90
-                text-white
-                px-7
-                py-4
-                rounded-xl
-                flex
-                items-center
-                gap-3
-                font-semibold
-                transition-all
-              "
-              >
-                <Camera size={22} />
-
-                Try Live Demo
-              </button> */}
               <Link
                 to="/ai-produce-grading#ai-grading-demo"
                 className="
                   bg-primary
                   hover:bg-primary/90
                   text-white
-                  px-7
-                  py-4
+                  px-4
+                  sm:px-7
+                  py-3
+                  sm:py-4
                   rounded-xl
                   flex
                   items-center
-                  gap-3
+                  justify-center
+                  gap-2
+                  sm:gap-3
                   font-semibold
                   transition-all
+                  flex-1
+                  sm:flex-none
+                  text-sm
+                  sm:text-base
+                  whitespace-nowrap
                 "
               >
-                <Camera size={22} />
+                <Camera size={18} className="sm:w-[22px] sm:h-[22px]" />
 
                 Try Live Demo
               </Link>
@@ -141,17 +134,26 @@ const HeroSection = () => {
                 text-primary
                 hover:bg-primary
                 hover:text-white
-                px-7
-                py-4
+                px-4
+                sm:px-7
+                py-3
+                sm:py-4
                 rounded-xl
                 flex
                 items-center
-                gap-3
+                justify-center
+                gap-2
+                sm:gap-3
                 font-semibold
                 transition-all
+                flex-1
+                sm:flex-none
+                text-sm
+                sm:text-base
+                whitespace-nowrap
               "
               >
-                <PlayCircle size={22} />
+                <PlayCircle size={18} className="sm:w-[22px] sm:h-[22px]" />
 
                 Watch Demo
               </button>

@@ -6,15 +6,16 @@ const TestimonialsSection = () => {
   const testimonials = [
     {
       quote:
-        "Before AgriFlow, almost half my yams rotted while waiting for buyers. Now, they buy everything at a fair price right at my farm gate.",
-      author: "Iorbee T.",
-      role: "Tomato Farmer, Benue State",
+        "Before AgriFlow AI, I could harvest good yams and still lose money because buyers would decide the price by simply looking at them. Sometimes I waited so long that part of my harvest spoiled. With AgriFlow, my yams are graded using AI, so their quality has a clear standard and I receive a transparent farm-gate price. They buy my produce directly, so I can sell faster, reduce waste, and have more confidence in the income from my farm.",
+      author: "Mrs. Ngukuran Iorbee.",
+      role: "Farmer, Benue State",
       image: "/testimonial-farmer.jpg",
     },
 
     {
       quote:
-        "Our school budget used to fluctuate wildly due to food prices. With AgriFlow's monthly contracts, we have stability and guaranteed quality.",
+        "Our food budget used to fluctuate whenever market prices changed, and maintaining consistent quality was another challenge. With AgriFlow AI, our monthly supply contracts give us predictable pricing and reliable quality. The AI acts as our digital eye, grading and standardizing the produce before it reaches us, so we know what we are receiving meets the quality we agreed on. It gives us confidence, consistency, and better control over our food supply.",
+
       author: "Mrs. Ovoke",
       role: "School Administrator, Warri Delta State",
       image: "/testimonial-school-admin.jpg",

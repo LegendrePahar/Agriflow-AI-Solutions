@@ -20,14 +20,13 @@ const InstitutionalBuyersSection = () => {
               For Institutional Buyers
             </p>
             
-
-            <h2 className="text-4xl lg:text-5xl font-bold text-[#0B132B] leading-tight mb-6">
-              Reliable,
-              <br />
-              quality produce
-              <br />
-              delivered to you
-            </h2>
+<h2 className="text-2xl sm:text-3xl lg:text-5xl font-bold text-[#0B132B] leading-tight mb-4 sm:mb-6">
+  Reliable,
+  <br />
+  quality produce
+  <br />
+  delivered to you
+</h2>
 
             <div className="space-y-4 mb-8">
               {[

@@ -62,7 +62,7 @@ const ValueItem = ({ value, divider }) => (
 
 const CoreValuesSection = () => {
   return (
-    <section className="py-10 bg-white">
+    <section className="py-8 bg-white">
 
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
 
@@ -78,8 +78,8 @@ const CoreValuesSection = () => {
           <p className="text-primary uppercase tracking-widest font-semibold text-sm mb-3">
             OUR CORE VALUES
           </p>
-
-          <h2 className="text-4xl lg:text-5xl font-bold text-[#0B132B]">
+          
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0B132B]">
             What Drives Us
           </h2>
         </motion.div>
@@ -92,7 +92,7 @@ const CoreValuesSection = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
           whileHover={{ y: -4 }}
-          className="bg-white rounded-[30px] border border-gray-100 shadow-sm overflow-hidden mb-8"
+          className="bg-white rounded-[30px] border border-gray-100 shadow-sm overflow-hidden mb-6"
         >
           <div className="grid md:grid-cols-2">
 

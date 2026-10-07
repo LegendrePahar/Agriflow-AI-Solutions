@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 const impacts = [
   {
     title: "Farmer Empowerment",
-    image: "/farmer-impact.png",
+    image: "/farmer-impact.jpg",
     description:
-      "Direct access to reliable buyers, transparent pricing, and guaranteed demand puts more income back into farmers' hands.",
+      "Standardizing produce quality, transparent pricing, and guaranteed demand puts more income back into farmers' hands.",
   },
   {
     title: "Food Security",
@@ -36,7 +36,7 @@ const ImpactSection = () => {
             OUR IMPACT
           </p>
 
-          <h2 className="text-4xl lg:text-6xl font-bold text-[#0B132B] leading-tight">
+          <h2 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-[#0B132B] leading-tight">
             Real change,
             <br />
             <span className="text-primary">measured in outcomes</span>

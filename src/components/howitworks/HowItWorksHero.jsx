@@ -12,7 +12,7 @@ const flowSteps = [
 
 const HowItWorksHero = () => {
   return (
-    <section className="relative bg-white pt-32 pb-5 overflow-hidden">
+    <section className="relative bg-white pt-24 pb-5 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         <div className="grid grid-cols-1 lg:grid-cols-[40%_60%] gap-0 items-center">
 
@@ -26,13 +26,13 @@ const HowItWorksHero = () => {
               How It Works
             </span>
 
-            <h1 className="text-5xl lg:text-6xl font-bold text-[#0B132B] leading-tight mb-6">
-              From Farm Gate to
-              <br />
-              Certified Delivery.
-              <br />
-              <span className="text-primary">Powered by AI.</span>
-            </h1>
+            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold text-[#0B132B] leading-tight mb-4 sm:mb-6">
+  From Farm Gate to
+  <br />
+  Certified Delivery.
+  <br />
+  <span className="text-primary">Powered by AI.</span>
+</h1>
 
             <p className="text-gray-600 text-lg leading-relaxed mb-8 max-w-lg">
               AgriFlow AI combines computer vision, market intelligence and

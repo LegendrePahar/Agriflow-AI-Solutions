@@ -27,11 +27,11 @@ const LogisticsPartnersSection = () => {
             </p>
             
 
-            <h2 className="text-4xl lg:text-5xl font-bold text-[#0B132B] leading-tight mb-6">
-              Optimize routes.
-              <br />
-              Maximize value.
-            </h2>
+            <h2 className="text-2xl sm:text-3xl lg:text-5xl font-bold text-[#0B132B] leading-tight mb-4 sm:mb-6">
+  Optimize routes.
+  <br />
+  Maximize value.
+</h2>
 
             <p className="text-gray-600 text-lg leading-relaxed mb-8">
               Our AI-powered logistics platform ensures every trip is

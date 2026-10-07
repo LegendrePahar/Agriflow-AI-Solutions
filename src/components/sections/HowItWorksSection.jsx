@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import {
   ScanSearch,
-  BarChart3,
+  ShoppingBasket,
   Truck,
   Repeat2,
 } from 'lucide-react';
@@ -13,17 +13,17 @@ const HowItWorksSection = () => {
       id: 1,
       title: "Farm Gate Intelligence",
       description:
-        "Computer Vision grades produce instantly — size, health, and market standard.",
+        "Computer Vision grades produce and generates a farm gate price offer instantly — based on size, health, freshness, and market standard.",
       tag: "Fair pricing for farmers",
       icon: <ScanSearch className="h-9 w-9 text-primary" />,
     },
     {
       id: 2,
-      title: "Demand Prediction",
+      title: "We Buy & Catalog",
       description:
-        "Machine Learning predicts what cities need — before shortages happen.",
-      tag: "Data-driven decisions",
-      icon: <BarChart3 className="h-9 w-9 text-primary" />,
+        "Once the farmer accepts our price offer, AgriFlow AI purchases the produce and adds the quality-assured stock to our product catalog for institutional buyers.",
+      tag: "From farm to AgriFlow",
+      icon: <ShoppingBasket className="h-9 w-9 text-primary" />,
     },
     {
       id: 3,
@@ -37,8 +37,9 @@ const HowItWorksSection = () => {
       id: 4,
       title: "Backhaul Optimization",
       description:
-        "Trucks return with fertilizer and seeds, solving the last-mile input problem.",
-      tag: "No empty trips",
+        "After delivering produce to our customers, we use our return trips to transport goods for logistics partners along the route back to Makurdi.",
+        // The backhaul service generates additional revenue, helps cover fuel and transport costs, and allows us to keep our food prices competitive
+      tag: "Turn return trips into revenue",
       icon: <Repeat2 className="h-9 w-9 text-primary" />,
     },
   ];
@@ -55,6 +56,7 @@ const HowItWorksSection = () => {
 
         {/* Header */}
         <div className="text-center mb-14">
+
           <p className="text-primary font-semibold uppercase tracking-widest text-sm mb-3">
             HOW AGRIFLOW AI WORKS
           </p>
@@ -62,15 +64,18 @@ const HowItWorksSection = () => {
           {/* Small green underline */}
           <div className="w-12 h-1 bg-primary mx-auto rounded-full mb-5"></div>
 
-          <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-5">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-3 sm:mb-5">
             Intelligent Food Flow Infrastructure
           </h2>
 
           <p className="max-w-3xl mx-auto text-lg text-gray-600 leading-relaxed">
-            AgriFlow AI combines Computer Vision, Machine Learning,
-            and smart logistics orchestration to eliminate waste,
-            stabilize supply, and increase farmer profitability.
+            AgriFlow AI puts farmers first by using Computer Vision and
+            Machine Learning to standardize produce, enable fairer farm-gate
+            pricing, and move quality-assured agricultural products to
+            high-demand markets through smart logistics—reducing waste and
+            increasing farmer profitability.
           </p>
+
         </div>
 
         {/* Flow Cards */}
@@ -78,6 +83,7 @@ const HowItWorksSection = () => {
 
           {/* Desktop Dotted Connector */}
           <div className="hidden lg:block absolute top-24 left-0 w-full z-0">
+
             <div className="border-t-2 border-dashed border-green-200 relative">
 
               {/* Animated moving dots */}
@@ -88,7 +94,15 @@ const HowItWorksSection = () => {
                   repeat: Infinity,
                   ease: "linear",
                 }}
-                className="absolute -top-[6px] left-0 w-3 h-3 rounded-full bg-primary"
+                className="
+                  absolute
+                  -top-[6px]
+                  left-0
+                  w-3
+                  h-3
+                  rounded-full
+                  bg-primary
+                "
               />
 
               <motion.div
@@ -98,54 +112,155 @@ const HowItWorksSection = () => {
                   repeat: Infinity,
                   ease: "linear",
                 }}
-                className="absolute -top-[6px] right-0 w-3 h-3 rounded-full bg-green-400"
+                className="
+                  absolute
+                  -top-[6px]
+                  right-0
+                  w-3
+                  h-3
+                  rounded-full
+                  bg-green-400
+                "
               />
+
             </div>
           </div>
 
           {steps.map((step, index) => (
+
             <motion.div
               key={step.id}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              initial={{
+                opacity: 0,
+                y: 30,
+              }}
+              whileInView={{
+                opacity: 1,
+                y: 0,
+              }}
+              viewport={{
+                once: true,
+              }}
               transition={{
                 duration: 0.5,
                 delay: index * 0.15,
               }}
-              whileHover={{ y: -8 }}
+              whileHover={{
+                y: -8,
+              }}
               className="relative z-10"
             >
-              <div className="relative bg-white rounded-2xl border border-green-100 p-6 h-full shadow-sm hover:shadow-xl transition-all duration-300">
+
+              <div
+                className="
+                  relative
+                  bg-white
+                  rounded-2xl
+                  border
+                  border-green-100
+                  p-6
+                  h-full
+                  shadow-sm
+                  hover:shadow-xl
+                  transition-all
+                  duration-300
+                "
+              >
 
                 {/* Step Number */}
-                <div className="absolute -top-4 left-6 w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center font-bold text-sm shadow-lg">
+                <div
+                  className="
+                    absolute
+                    -top-4
+                    left-6
+                    w-8
+                    h-8
+                    rounded-full
+                    bg-primary
+                    text-white
+                    flex
+                    items-center
+                    justify-center
+                    font-bold
+                    text-sm
+                    shadow-lg
+                  "
+                >
                   {step.id}
                 </div>
 
                 {/* Icon Circle */}
-                <div className="w-20 h-20 rounded-full border border-green-100 bg-green-50 flex items-center justify-center mb-6 mx-auto">
+                <div
+                  className="
+                    w-20
+                    h-20
+                    rounded-full
+                    border
+                    border-green-100
+                    bg-green-50
+                    flex
+                    items-center
+                    justify-center
+                    mb-6
+                    mx-auto
+                  "
+                >
                   {step.icon}
                 </div>
 
                 {/* Content */}
                 <div className="text-left">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3 leading-snug">
+
+                  <h3
+                    className="
+                      text-xl
+                      font-bold
+                      text-gray-900
+                      mb-3
+                      leading-snug
+                    "
+                  >
                     {step.title}
                   </h3>
 
-                  <p className="text-gray-600 leading-relaxed mb-4 text-base">
+                  <p
+                    className="
+                      text-gray-600
+                      leading-relaxed
+                      mb-4
+                      text-base
+                    "
+                  >
                     {step.description}
                   </p>
 
                   {/* Tag */}
-                  <div className="inline-flex items-center px-3 py-1.5 rounded-xl bg-green-50 border border-green-100 text-primary text-sm font-semibold">
+                  <div
+                    className="
+                      inline-flex
+                      items-center
+                      px-3
+                      py-1.5
+                      rounded-xl
+                      bg-green-50
+                      border
+                      border-green-100
+                      text-primary
+                      text-sm
+                      font-semibold
+                    "
+                  >
                     {step.tag}
                   </div>
+
                 </div>
+
               </div>
+
             </motion.div>
+
           ))}
+
         </div>
       </div>
     </section>

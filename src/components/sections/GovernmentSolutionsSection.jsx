@@ -44,11 +44,11 @@ const GovernmentSolutionsSection = () => {
               FOR GOVERNMENT & NGOs
             </p>
 
-            <h2 className="text-4xl lg:text-5xl font-bold text-[#0B132B] leading-tight mb-6">
-              Data and partnerships
-              <br />
-              for a food secure Nigeria
-            </h2>
+           <h2 className="text-2xl sm:text-3xl lg:text-5xl font-bold text-[#0B132B] leading-tight mb-4 sm:mb-6">
+  Data and partnerships
+  <br />
+  for a food secure Nigeria
+</h2>
 
             <div className="space-y-4 mb-10">
 

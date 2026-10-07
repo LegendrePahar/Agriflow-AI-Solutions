@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const ProblemSection = () => {
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-8 bg-gray-50">
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
@@ -27,7 +27,7 @@ const ProblemSection = () => {
             <p className="text-primary font-semibold uppercase tracking-wider mb-4">
               THE PROBLEM WE SAW
             </p>
-            <h2 className="text-4xl lg:text-5xl font-bold text-[#0B132B] mb-6">
+            <h2 className="text-2xl sm:text-3xl lg:text-5xl font-bold text-[#0B132B] mb-4 sm:mb-4">
               Nigeria loses up to 40% of its food before it reaches the market
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed mb-6">

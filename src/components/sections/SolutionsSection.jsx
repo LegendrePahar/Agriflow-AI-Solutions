@@ -266,7 +266,7 @@ const ValuePropositionSection = () => {
           </h2>
                     <div className="w-12 h-1 bg-primary mx-auto rounded-full mb-6"></div>
 
-          <h2 className="text-4xl lg:text-4xl font-bold text-[#0B132B] mb-5">
+          <h2 className="text-3xl sm:text-4xl lg:text-4xl font-bold text-[#0B132B] mb-3 sm:mb-5">
             A Win-Win Ecosystem
           </h2>
 

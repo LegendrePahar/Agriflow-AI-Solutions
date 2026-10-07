@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { ShoppingCart } from "lucide-react";
 
 const CTASection = () => {
 
@@ -176,10 +177,20 @@ const CTASection = () => {
             </a>
 
 
-            {/* Request Demo */}
+            {/* Request Supply */}
 
-            <Link
-              to="/ai-produce-grading#ai-grading-demo"
+            <a
+                href="https://wa.me/2348081873265?text=Hello%20AgriFlow%20AI%20sales%20team,%20I%20would%20like%20to%20request%20a%20food%20supply."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 border border-white/30 hover:border-white text-white px-5 sm:px-7 py-3 sm:py-4 rounded-xl text-xs sm:text-base font-semibold transition-all duration-300"
+              >
+                Request Supply
+                <ShoppingCart size={16} className="sm:w-[18px] sm:h-[18px]" />
+              </a>
+
+            {/* <Link
+              to="/home#contact"
               className="
                 border
                 border-white
@@ -195,8 +206,8 @@ const CTASection = () => {
                 text-center
               "
             >
-              Request Demo
-            </Link>
+              Request Supply
+            </Link> */}
 
           </motion.div>
 
