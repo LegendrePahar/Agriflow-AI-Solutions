@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import { ArrowRight, Sprout, Truck, Building2, Landmark } from "lucide-react";
 
 const floatingIcons = [
@@ -43,14 +44,20 @@ const SolutionsHero = () => {
               network to move food better.
             </p>
 
-            <motion.button
-              whileHover={{ scale: 1.04 }}
-              whileTap={{ scale: 0.98 }}
-              className="bg-primary hover:bg-green-700 text-white px-8 py-2 rounded-full font-semibold inline-flex items-center gap-3 shadow-lg transition w-fit"
+            {/* CTA — links to the AI Produce Grading page */}
+            <Link
+              to="/ai-produce-grading#ai-grading-demo"
+              className="w-fit"
             >
-              Explore Our Solutions
-              <ArrowRight size={18} />
-            </motion.button>
+              <motion.div
+                whileHover={{ scale: 1.04 }}
+                whileTap={{ scale: 0.98 }}
+                className="bg-primary hover:bg-green-700 text-white px-8 py-2 rounded-full font-semibold inline-flex items-center gap-3 shadow-lg transition w-fit"
+              >
+                Explore Our Solutions
+                <ArrowRight size={18} />
+              </motion.div>
+            </Link>
           </motion.div>
 
           {/* RIGHT IMAGE */}
